@@ -1,0 +1,278 @@
+body{
+  background: linear-gradient(to right, #0a662b, #32cd32);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 20px solid greenyellow;
+}  
+    
+.h1{
+    justify-content: center;
+}
+.container{
+    text-align: center;
+    padding: 20px;
+}
+.image-container{
+    position: relative;
+}
+.image-container img{
+    height: auto;
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+    border: 5px solid white;
+    overflow: hidden;
+    margin: 15px;
+
+}
+.problem-container{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    left: 20%;
+    background:(0, 0, 0, 0.0 );
+    padding: 10px;
+    color: white;
+    text-align: left;
+}
+.problem-container ul{
+     border: 2px solid white;
+    border-radius: 10px;
+    text-align: left;
+    list-style-type: circle;
+    padding: 10px;
+    align-items: center;
+    width: 25vw;
+    position: relative;
+    list-style-position: inside;
+    right: 10%;
+    
+}
+.problem-container ul li{
+    text-align: left;
+    margin-bottom: 5px;
+    align-items: center;
+    flex-direction: column;
+    margin: 1%;  
+}
+.solution-container{
+   position: relative;
+    bottom: 40vh;
+    width: 100%;
+    right: 20%;
+    background:(0, 0, 0, 0.0 );
+    padding: 10px;
+    color: white;
+    text-align: right;
+}
+.overlay{
+    pointer-events: none;
+}
+.solution-container ul{
+     border: 2px solid white;
+    border-radius: 10px;
+    text-align: right;
+    list-style-type: circle;
+    padding: 10px;
+    align-items: center;
+    width: 25vw;
+    position: relative;
+    list-style-position: inside;
+    left: 80%;
+    }
+    .solution-container ul li{
+    text-align: left;
+    margin-bottom: 5px;
+    align-items: center;
+    flex-direction: column;
+    margin: 1%;  
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+    nav{
+    margin: 20px 0;
+    text-align: center;
+}
+    nav a{
+    padding: 10px;
+    text-decoration: underline;
+    color: beige;
+    }
+.glow-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 70px;
+    border-radius: 60%;
+    background-color: green;
+    color: beige;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 0 0 10px #32cd32, 0 0 20px #32cd32, 0 0 30px #32cd32;
+    z-index: 10;
+    position: absolute;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.company-name{
+    color: #34C759; 
+    font-size: 24px;
+    font-weight: bold;
+}
+.tagline{
+    background-color: #34C759;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.container{
+    position: relative;
+    bottom: 10vh;
+    margin-right: 20px;
+    width: 100%;
+    
+}
+.violah{
+    position: relative;
+    width: 100vw;
+    bottom: 15vh;
+    
+}
+.violah img{
+width: 100vw;
+}
+.mission{
+    position: relative;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    bottom: 20vh;
+
+}
+.mission h3{
+    color: white;
+}
+.mission p{
+    position: relative;
+   bottom: 6vh;
+    }
+    .val{
+        position: relative;
+         align-items: center;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+         bottom: 30vh;
+    }
+    .base{
+      background-color: #34C759;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 13px;   
+    }
+    .val h4{
+       color: white; 
+    }
+    .val p{
+        position: relative;
+        bottom: 5vh;
+    }
+    .val ul{
+        position: relative;
+        bottom: 8vh;
+    }
+    .him{
+        position: relative;
+        bottom: 105vh;
+        left: 70%;
+        font-size: larger;
+        color: lawngreen;
+    }
+    .conta{
+         background-color: #34C759;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 13px;
+    }
+    .ky{
+         position: relative;
+ 
+    }
+    .ky img{
+        position: relative;
+    width: 100vw;
+    bottom: 15vh;
+    top: 10vh;
+    }
+    .her{
+        position: relative;
+    }
+    .her h3{
+          position: relative;
+    bottom: 0;
+    top: 8vh;
+    width: 100%;
+    left: 15%;
+    background:(0, 0, 0, 0.0 );
+    padding: 10px;
+    color: white;
+    text-align: left; 
+    }
+    .her address{
+         border: 2px solid white;
+    border-radius: 10px;
+    text-align: left;
+    list-style-type: circle;
+    padding: 10px;
+    align-items: center;
+    width: 25vw;
+    position: relative;
+    list-style-position: inside;
+    top: 10vh;
+    right: -5%;
+    }
+    .hero{
+        position: relative;
+    }
+    .hero h3{
+       left: -15%;
+         position: relative;
+    bottom: 28vh;
+    width: 100%;
+    right: 40%;
+    background:(0, 0, 0, 0.0 );
+    padding: 10px;
+    color: white;
+    text-align: right;
+    }
+    .contact-form{
+          border: 2px solid white;
+    border-radius: 10px;
+    text-align: right;
+    list-style-type: circle;
+    padding: 10px;
+    align-items: center;
+    width: 25vw;
+    position: relative;
+    list-style-position: inside;
+    left: 65%;
+    bottom: 30vh;
+
+    }
+        
+    
